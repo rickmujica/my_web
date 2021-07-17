@@ -15,3 +15,7 @@ body::before {
         width: 50%;
     }
 }
+#cotizacion {
+    box-shadow: 30px 30px 15px 1px rgba(0,0,0,0.1);
+
+}
