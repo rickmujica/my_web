@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <title>Estaticas</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top ">
+        <div class="container">
+            <a href="bootstrapCrashIndex.html" class="navbar-brand">Ricardo Urbieta</a>
+            <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="bootstrapCrashIndex.html" class="nav-link">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="bootstrapCrashIndex.html" class="nav-link">Preguntas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="bootstrapCrashIndex.html" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+        </div>
+
+        </div>
+    </nav>
+
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container pt-5">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Sitios Web <span class="text-warning">E-commerce</span></h1>
+                    <p class="lead my-4">Los sitios E-commerce, son los mas costosos ya que la complejidad es alta y el tiempo que llevan de realizar es extenso, se deben de vincular todas las interacciones con las bases de datos de los productos y de los clientes con sus transacciones.</p>
+                    <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#cotizacion"> Obten una cotización</button>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="imagenes/showcase.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="bg-dark text-light p-5 ">
+        <div class="container">
+        <p class="lead">
+            Un sistema de compra y venta de productos y servicios que utiliza Internet como medio principal de intercambio. En otras palabras, se trata de un comercio que gestiona los cobros y pagos a través de medios electrónicos.
+        </p>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2021 Ricardo Urbieta</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>  
+     </footer>
+
+    <!-- Modal -->
+<div class="modal fade" id="cotizacion" tabindex="-1" aria-labelledby="cotizacionLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="cotizacionLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Completa el formulario y me pondré en contacto con Ud.</p>
+          <form>
+              <div class="mb-3">
+                  <label for="NombreApellido" class="col-form-label">
+                      Nombre y Apellido:
+                  </label>
+                  <input type="text" class="form-control" id="nombreApellido">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">
+                    Email:
+                </label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="telefono" class="col-form-label">
+                    Teléfono:
+                </label>
+                <input type="tel" class="form-control" id="telefono">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
